@@ -1,0 +1,17 @@
+$font:Helvetica, sans-serif;
+$fontSize:24px;
+$color: darkkhaki;
+$name:"demo";
+$borderRadius: 30px;
+div.#{$name}{
+    font-size: $fontSize;
+    font: 100% $font;
+    color: $color;
+}
+.test{
+    $borderRadius: 3px;
+    border: solid 2px green;
+    border-radius: $borderRadius;
+    font-size: $fontSize;
+    background-color : $color;
+}

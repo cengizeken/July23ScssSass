@@ -1,0 +1,31 @@
+.demo {
+  font: 100% Helvetica, sans-serif;
+  color: darkkhaki;
+}
+
+p.test {
+  font-size: 24px;
+  background-color: darkkhaki;
+}
+
+#menu {
+  background-color: darkkhaki;
+}
+#menu ul {
+  width: 100%;
+  list-style: none;
+}
+#menu li {
+  display: inline-block;
+}
+#menu a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  display: block;
+  text-align: center;
+}
+#menu a:hover {
+  text-decoration: none;
+  color: red;
+}/*# sourceMappingURL=main.css.map */

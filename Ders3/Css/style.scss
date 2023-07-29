@@ -1,0 +1,73 @@
+$font:Helvetica, sans-serif;
+$fontSize:24px;
+$color: darkkhaki;
+$name:"demo";
+$borderRadius: 30px;
+div.#{$name}{
+    font-size: $fontSize;
+    font: 100% $font;
+    color: $color;
+}
+.test{
+    $borderRadius: 3px;
+    border: solid 2px green;
+    border-radius: $borderRadius;
+    font-size: $fontSize;
+    background-color : $color;
+}
+
+#menu{
+    background-color: $color;
+    ul{
+        width: 100%;
+        list-style: none;
+    }
+    li{
+        display: inline-block;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        padding: 8px 16px;
+        display: block;
+        text-align: center;
+        &:hover{//bu kullanım 1 ile aynı
+            text-decoration: underline;
+            color:black;
+        }
+    }
+    /*a:hover{bu kullanım,1 ile aynı
+        text-decoration: underline;
+        color:black;
+    }*/
+}//menu ends
+
+section{
+    article{
+        .article-header{
+            font-size: 30px;
+            font-weight: bold;
+            color: green;
+            border-bottom: 1px dashed black;
+        }
+        .article-content{
+            font-family: $font;
+            color:#444;
+            a{
+                color: green;
+                text-decoration: none;
+                &:hover{
+                    color: red;
+                    text-decoration: underline;
+                }
+            }
+        }
+        p{
+            .article-footer{
+                font-weight: bold;
+                color:$color;
+                border-top: 1px dashed black;
+            }
+        }
+    }
+}
