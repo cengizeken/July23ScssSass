@@ -1,0 +1,114 @@
+@charset "UTF-8";
+div.demo {
+  font-size: 24px;
+  font: 100% Helvetica, sans-serif;
+  color: darkkhaki;
+}
+
+.test {
+  border: solid 2px green;
+  border-radius: 3px;
+  font-size: 24px;
+  background-color: darkkhaki;
+}
+
+#menu {
+  background-color: darkkhaki;
+  /*a:hover{bu kullanım,1 ile aynı
+      text-decoration: underline;
+      color:black;
+  }*/
+}
+#menu ul {
+  width: 100%;
+  list-style: none;
+}
+#menu li {
+  display: inline-block;
+}
+#menu a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  display: block;
+  text-align: center;
+}
+#menu a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+section article .article-header {
+  font-size: 30px;
+  font-weight: bold;
+  color: green;
+  border-bottom: 1px dashed black;
+}
+section article .article-content {
+  font-family: Helvetica, sans-serif;
+  color: #444;
+}
+section article .article-content a {
+  color: green;
+  text-decoration: none;
+}
+section article .article-content a:hover {
+  color: red;
+  text-decoration: underline;
+}
+section article p .article-footer {
+  font-weight: bold;
+  color: darkkhaki;
+  border-top: 1px dashed black;
+}
+
+/*.error{
+    border: 1px solid red;
+    color: red;
+}
+.error-width{
+    border-width: 3px;
+}*/
+.error, .error-width {
+  border: 1px solid red;
+  color: red;
+  padding: 15px;
+}
+
+.error-width {
+  border-width: 3px;
+}
+
+.info, .warning, .success, .error, .error-width {
+  border: 1px solid #21B179;
+  padding: 15px;
+  width: 40%;
+  color: #21B179;
+  margin-top: 3px;
+}
+
+.error, .error-width {
+  border-color: red;
+  color: red;
+}
+
+.success {
+  border-color: green;
+  color: green;
+}
+
+.warning {
+  border-color: orange;
+  color: orange;
+}
+
+.text {
+  /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: bold;*/
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
